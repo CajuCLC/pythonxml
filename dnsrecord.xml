@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChangeResourceRecordSetsRequest xmlns="https://route53.amazonaws.com/doc/2012-12-12/">
+   <ChangeBatch>
+      <Comment>
+     Signashop DNS record 
+      </Comment>
+      <Changes>
+         <Change>
+            <Action>CREATE</Action>
+            <ResourceRecordSet>
+               <Name>glamourboutique.signashop.com.br.</Name>
+               <Type>CNAME</Type>
+               <TTL>3600</TTL>
+               <ResourceRecords>
+                  <ResourceRecord>
+                     <Value>web-04.signashop.com.br.</Value>
+                  </ResourceRecord>
+               </ResourceRecords>
+            </ResourceRecordSet>
+         </Change>
+      </Changes>
+   </ChangeBatch>
+</ChangeResourceRecordSetsRequest>
