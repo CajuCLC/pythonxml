@@ -29,7 +29,7 @@ domain_name = "ericcavalcanti.com.br"
 try:
 	dom=dns.find(name=domain_name)
 except pyrax.exceptions.NotFound:
-	print("The domain name {} was not found").format(domain_name)
+	print("The domain name "+domain_name+" was not found")
 	sys.exit()
 
 # Checks if record already exists.
