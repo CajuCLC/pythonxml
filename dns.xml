@@ -1,0 +1,6 @@
+<ResourceRecordSet>
+  <Name>glamourboutiques.ericcavalcanti.com.br</Name>
+  <Type>CNAME</Type>
+  <TTL>3600</TTL>
+  <Cname>web-04.signashop.com.br.</Cname>
+</ResourceRecordSet>
