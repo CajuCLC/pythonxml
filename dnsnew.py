@@ -53,7 +53,7 @@ if ( __name__ == "__main__"):
 import pyrax
 
 pyrax.set_setting('identity_type', 'rackspace')
-pyrax.set_credentials('latamcloud', '5423fbfe44ec45a4b793aab1228e242f')
+pyrax.set_credentials('USERNAME', 'API')
 
 dns=pyrax.cloud_dns
 dom=dns.find(name="ericcavalcanti2.com.br")
